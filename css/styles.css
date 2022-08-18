@@ -27,34 +27,24 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
 }
-.blue-text {
-  color: #2196f3;
-}
-.without-underline {
-  text-decoration: none;
-}
-.navigation-bar {
+.nav-links {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-}
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  align-items: center;
-  gap: 93px;
-  flex-direction: row;
-  padding: 25px 0 24px 0;
-  display: flex;
-}
-.nav-links {
+  text-decoration: none;
   align-items: center;
   flex-direction: row;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  color: #212121;
+
+}
+.nav-links:hover {
+  color: #2196f3
+}
+.nav-links:focus {
+  color: #2196f3
 }
 .contacts-header {
   font-family: "Roboto";
@@ -64,7 +54,17 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
+  flex-direction: row;
+  align-items: left;
 }
+.contacts-header:hover {
+  color: #2196f3
+}
+.contacts-header:focus {
+  color: #2196f3
+}
+
 h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -76,15 +76,8 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.title-container {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-  background: #2f303a;
-}
-.button {
+
+.button-service-ordering {
   background-color: #2196f3;
   width: 200px;
   height: 50px;
@@ -102,4 +95,38 @@ h4 {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase color #212121;
+}
+h5 {
+  font-family: 'Roboto';
+  font-style: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+.portfolio-type {
+  font-family: 'Roboto';
+  font-style: Regular;
+  font-size: 16px;
+  Line-height: 30px;
+}
+.portfolio-button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0em;
+  background-color: #F5F4FA;
+  color: #212121;
+}
+
+.portfolio-button:hover {
+  background-color: #2196F3;
+  color: #ffffff
+}
+.buttons-style{
+  list-style: none;
 }
