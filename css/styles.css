@@ -135,6 +135,11 @@ h5 {
   font-size: 18px;
   line-height: 2;
 }
+.profession {
+  font-size:16px;
+  line-height: 1.19;
+  color: #757575;
+}
 .description {
   font-family: 'Roboto';
   font-size: 14px;
