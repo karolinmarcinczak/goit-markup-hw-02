@@ -26,6 +26,13 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
+}
+.without-underline {
+  text-decoration: none;
+}
+.blue-text {
+  color: #2196f3
 }
 .nav-links {
   font-family: "Roboto";
@@ -46,7 +53,7 @@ body {
 .nav-links:focus {
   color: #2196f3
 }
-.contacts-header {
+.contacts {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -58,10 +65,10 @@ body {
   flex-direction: row;
   align-items: left;
 }
-.contacts-header:hover {
+.contacts:hover {
   color: #2196f3
 }
-.contacts-header:focus {
+.contacts:focus {
   color: #2196f3
 }
 
