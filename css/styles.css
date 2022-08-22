@@ -1,16 +1,13 @@
-/*.wrapper {
-  background-color: #ffffff;
-  height: 80px;
-  width: 1600px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  margin: 0 auto;
-}*/
+:root {
+  --main-bg-color: #E5E5E5;
+  --main-text-color:#212121;
+  --blue: #2196F3;
+  --white: #ffffff;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: #212121;
-  background-color: #E5E5E5;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
 }
 header {
   background-color: #FFFFFF;
@@ -33,14 +30,14 @@ header {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: var(--white);
   text-decoration: none;
 }
 .without-underline {
   text-decoration: none;
 }
 .blue-text {
-  color: #2196f3
+  color: var(--blue);
 }
 .nav-links {
   font-family: "Roboto";
@@ -51,15 +48,15 @@ header {
   text-decoration: none;
   align-items: center;
   flex-direction: row;
-  color: #212121;
+  color: var(--main-text-color);
 
 }
 .nav-links:hover {
-  color: #2196f3;
+  color: var(--blue);
   text-decoration: underline;
 }
 .nav-links:focus {
-  color: #2196f3
+  color: var(--blue);
 }
 .contacts {
   font-family: "Roboto";
@@ -72,17 +69,17 @@ header {
   align-items: left;
 }
 .contacts:hover {
-  color: #2196f3;
+  color: var(--blue);
   text-decoration: underline;
 }
 .contacts:focus {
-  color: #2196f3
+  color: var(--blue);
 }
 address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: #FFFFFF;
+  color: var(--white);
 }
 .footer-contacts {
   font-size: 14px;
@@ -98,7 +95,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--white);
 }
 h2 {
   font-family: 'Roboto';
@@ -110,13 +107,13 @@ footer {
   background-color: #2F303A;
 }
 .button-service-ordering {
-  background-color: #2196f3;
+  background-color: var(--blue);
   width: 200px;
   height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: #ffffff;
+  color: var(--white);
   display: flex;
   border: none;
   border-radius: 4px;
@@ -124,9 +121,9 @@ footer {
   
 }
 .button-service-ordering:hover  {
-  border: #2196F3 solid;
+  border: var(--blue) solid;
   text-decoration: underline;
-  text-decoration-color: #2196f3;
+  text-decoration-color: var(--blue);
 }
 h4 {
   font-family: "Roboto";
@@ -134,7 +131,7 @@ h4 {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-text-color);
 }
 h5 {
   font-family: 'Roboto';
@@ -169,16 +166,16 @@ h5 {
   text-decoration: none;
   border: 0em;
   border-radius: 4px;
-  background-color: #2196F3;
-  color: #FFFFFF;
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 .portfolio-first-button:hover {
 
-  border: #2196F3 solid;
+  border: var(--blue) solid;
   border-radius: 4px;
   text-decoration: underline;
-  text-decoration-color: #2196F3;
+  text-decoration-color: var(--blue);
 }
 .portfolio-button {
   font-family: 'Roboto';
@@ -192,15 +189,15 @@ h5 {
   border: 0em;
   border-radius: 4px;
   background-color: #F5F4FA;
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .portfolio-button:hover {
   
-  border: #2196F3 solid;
+  border: var(--blue) solid;
   border-radius: 4px;
   text-decoration: underline;
-  text-decoration-color: #2196F3;
+  text-decoration-color: var(--blue);
 }
 .no-dots-list{
   list-style: none;
