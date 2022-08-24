@@ -170,13 +170,6 @@ h5 {
   color: var(--white);
 }
 
-.portfolio-first-button:hover {
-
-  border: var(--blue) solid;
-  border-radius: 4px;
-  text-decoration: underline;
-  text-decoration-color: var(--blue);
-}
 .portfolio-button {
   font-family: 'Roboto';
   font-size: 16px;
@@ -198,6 +191,8 @@ h5 {
   border-radius: 4px;
   text-decoration: underline;
   text-decoration-color: var(--blue);
+  background-color: var(--blue);
+  color: var(--white);
 }
 .no-dots-list{
   list-style: none;
